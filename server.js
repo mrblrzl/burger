@@ -14,6 +14,9 @@ app.get('/', function(req, res) {
   res.send("<div>HELLO</div>");
 })
 
+var routes = require("./controllers/burger_controllers.js");
+
+app.use(routes);
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
