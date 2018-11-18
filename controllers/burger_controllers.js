@@ -22,6 +22,7 @@ router.post("/api/burgers", function(req, res) {
     req.body.burger_name, req.body.devoured
   ], function(result) {
     // Send back the ID of the new quote
+    console.log(`result: ${result}`);
     res.json({ id: result.insertId });
   });
 });
@@ -58,3 +59,4 @@ router.delete("/api/burgers/:id", function(req, res) {
 
 // Export routes for server.js to use.
 module.exports = router;
+

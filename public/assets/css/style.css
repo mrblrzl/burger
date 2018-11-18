@@ -1,15 +1,16 @@
-*{
-  background-color: antiquewhite;
-}
-  
+* {
+    text-align: center;
+    background-color:lightpink;
+  }
+
   .label {
     font-weight: bold;
   }
   
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
+  .create-form {
+    padding: 15px;
+    margin: 15px;
+   
   }
   
   .form-group {
