@@ -16,5 +16,6 @@
     * JQuery
     * AJAX
   
-3. [Demo](#demo)
-<a href="https://imgflip.com/gif/2qotn6"><img src="https://i.imgflip.com/2qotn6.gif"/></a>
+3. Demo
+
+![picture](./public/assets/css/ezgif.com-crop.gif)
